@@ -1,0 +1,13 @@
+C:\Users\dell\source\repos\Williams\Williams\bin\Debug\Williams.exe.config
+C:\Users\dell\source\repos\Williams\Williams\bin\Debug\Williams.exe
+C:\Users\dell\source\repos\Williams\Williams\bin\Debug\Williams.pdb
+C:\Users\dell\source\repos\Williams\Williams\bin\Debug\Williams.xml
+C:\Users\dell\source\repos\Williams\Williams\obj\Debug\Williams.vbproj.AssemblyReference.cache
+C:\Users\dell\source\repos\Williams\Williams\obj\Debug\Williams.vbproj.SuggestedBindingRedirects.cache
+C:\Users\dell\source\repos\Williams\Williams\obj\Debug\Williams.Form1.resources
+C:\Users\dell\source\repos\Williams\Williams\obj\Debug\Williams.Resources.resources
+C:\Users\dell\source\repos\Williams\Williams\obj\Debug\Williams.vbproj.GenerateResource.cache
+C:\Users\dell\source\repos\Williams\Williams\obj\Debug\Williams.vbproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\Williams\Williams\obj\Debug\Williams.exe
+C:\Users\dell\source\repos\Williams\Williams\obj\Debug\Williams.xml
+C:\Users\dell\source\repos\Williams\Williams\obj\Debug\Williams.pdb
