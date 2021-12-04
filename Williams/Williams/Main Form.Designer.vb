@@ -22,10 +22,10 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.RadBasic = New System.Windows.Forms.RadioButton()
-        Me.RadSilver = New System.Windows.Forms.RadioButton()
-        Me.RadGold = New System.Windows.Forms.RadioButton()
-        Me.RadDiamond = New System.Windows.Forms.RadioButton()
+        Me.radBasic = New System.Windows.Forms.RadioButton()
+        Me.radSilver = New System.Windows.Forms.RadioButton()
+        Me.radGold = New System.Windows.Forms.RadioButton()
+        Me.radDiamond = New System.Windows.Forms.RadioButton()
         Me.lblPackages = New System.Windows.Forms.Label()
         Me.lblCharge = New System.Windows.Forms.Label()
         Me.lblBasic = New System.Windows.Forms.Label()
@@ -38,59 +38,59 @@ Partial Class Form1
         Me.lblHBIPrice = New System.Windows.Forms.Label()
         Me.lblShowtimerPrice = New System.Windows.Forms.Label()
         Me.lblLocalPrice = New System.Windows.Forms.Label()
-        Me.ChkCinnematic = New System.Windows.Forms.CheckBox()
+        Me.chkCinnematic = New System.Windows.Forms.CheckBox()
         Me.chkHBI = New System.Windows.Forms.CheckBox()
-        Me.ChkShowtimer = New System.Windows.Forms.CheckBox()
-        Me.ChkLocal = New System.Windows.Forms.CheckBox()
+        Me.chkShowtimer = New System.Windows.Forms.CheckBox()
+        Me.chkLocal = New System.Windows.Forms.CheckBox()
         Me.btnCalc = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.lblTotal = New System.Windows.Forms.Label()
         Me.lblTotalBox = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'RadBasic
+        'radBasic
         '
-        Me.RadBasic.AutoSize = True
-        Me.RadBasic.Location = New System.Drawing.Point(33, 63)
-        Me.RadBasic.Name = "RadBasic"
-        Me.RadBasic.Size = New System.Drawing.Size(51, 17)
-        Me.RadBasic.TabIndex = 1
-        Me.RadBasic.TabStop = True
-        Me.RadBasic.Text = "Basic"
-        Me.RadBasic.UseVisualStyleBackColor = True
+        Me.radBasic.AutoSize = True
+        Me.radBasic.Location = New System.Drawing.Point(33, 63)
+        Me.radBasic.Name = "radBasic"
+        Me.radBasic.Size = New System.Drawing.Size(51, 17)
+        Me.radBasic.TabIndex = 1
+        Me.radBasic.TabStop = True
+        Me.radBasic.Text = "Basic"
+        Me.radBasic.UseVisualStyleBackColor = True
         '
-        'RadSilver
+        'radSilver
         '
-        Me.RadSilver.AutoSize = True
-        Me.RadSilver.Location = New System.Drawing.Point(33, 88)
-        Me.RadSilver.Name = "RadSilver"
-        Me.RadSilver.Size = New System.Drawing.Size(51, 17)
-        Me.RadSilver.TabIndex = 2
-        Me.RadSilver.TabStop = True
-        Me.RadSilver.Text = "Silver"
-        Me.RadSilver.UseVisualStyleBackColor = True
+        Me.radSilver.AutoSize = True
+        Me.radSilver.Location = New System.Drawing.Point(33, 88)
+        Me.radSilver.Name = "radSilver"
+        Me.radSilver.Size = New System.Drawing.Size(51, 17)
+        Me.radSilver.TabIndex = 2
+        Me.radSilver.TabStop = True
+        Me.radSilver.Text = "Silver"
+        Me.radSilver.UseVisualStyleBackColor = True
         '
-        'RadGold
+        'radGold
         '
-        Me.RadGold.AutoSize = True
-        Me.RadGold.Location = New System.Drawing.Point(33, 113)
-        Me.RadGold.Name = "RadGold"
-        Me.RadGold.Size = New System.Drawing.Size(47, 17)
-        Me.RadGold.TabIndex = 3
-        Me.RadGold.TabStop = True
-        Me.RadGold.Text = "Gold"
-        Me.RadGold.UseVisualStyleBackColor = True
+        Me.radGold.AutoSize = True
+        Me.radGold.Location = New System.Drawing.Point(33, 113)
+        Me.radGold.Name = "radGold"
+        Me.radGold.Size = New System.Drawing.Size(47, 17)
+        Me.radGold.TabIndex = 3
+        Me.radGold.TabStop = True
+        Me.radGold.Text = "Gold"
+        Me.radGold.UseVisualStyleBackColor = True
         '
-        'RadDiamond
+        'radDiamond
         '
-        Me.RadDiamond.AutoSize = True
-        Me.RadDiamond.Location = New System.Drawing.Point(33, 138)
-        Me.RadDiamond.Name = "RadDiamond"
-        Me.RadDiamond.Size = New System.Drawing.Size(67, 17)
-        Me.RadDiamond.TabIndex = 4
-        Me.RadDiamond.TabStop = True
-        Me.RadDiamond.Text = "Diamond"
-        Me.RadDiamond.UseVisualStyleBackColor = True
+        Me.radDiamond.AutoSize = True
+        Me.radDiamond.Location = New System.Drawing.Point(33, 138)
+        Me.radDiamond.Name = "radDiamond"
+        Me.radDiamond.Size = New System.Drawing.Size(67, 17)
+        Me.radDiamond.TabIndex = 4
+        Me.radDiamond.TabStop = True
+        Me.radDiamond.Text = "Diamond"
+        Me.radDiamond.UseVisualStyleBackColor = True
         '
         'lblPackages
         '
@@ -204,15 +204,15 @@ Partial Class Form1
         Me.lblLocalPrice.TabIndex = 22
         Me.lblLocalPrice.Text = "6.00"
         '
-        'ChkCinnematic
+        'chkCinnematic
         '
-        Me.ChkCinnematic.AutoSize = True
-        Me.ChkCinnematic.Location = New System.Drawing.Point(33, 225)
-        Me.ChkCinnematic.Name = "ChkCinnematic"
-        Me.ChkCinnematic.Size = New System.Drawing.Size(157, 17)
-        Me.ChkCinnematic.TabIndex = 6
-        Me.ChkCinnematic.Text = "Cinnematic Movie Channels"
-        Me.ChkCinnematic.UseVisualStyleBackColor = True
+        Me.chkCinnematic.AutoSize = True
+        Me.chkCinnematic.Location = New System.Drawing.Point(33, 225)
+        Me.chkCinnematic.Name = "chkCinnematic"
+        Me.chkCinnematic.Size = New System.Drawing.Size(157, 17)
+        Me.chkCinnematic.TabIndex = 6
+        Me.chkCinnematic.Text = "Cinnematic Movie Channels"
+        Me.chkCinnematic.UseVisualStyleBackColor = True
         '
         'chkHBI
         '
@@ -224,25 +224,25 @@ Partial Class Form1
         Me.chkHBI.Text = "HBI Movie Channels"
         Me.chkHBI.UseVisualStyleBackColor = True
         '
-        'ChkShowtimer
+        'chkShowtimer
         '
-        Me.ChkShowtimer.AutoSize = True
-        Me.ChkShowtimer.Location = New System.Drawing.Point(33, 283)
-        Me.ChkShowtimer.Name = "ChkShowtimer"
-        Me.ChkShowtimer.Size = New System.Drawing.Size(154, 17)
-        Me.ChkShowtimer.TabIndex = 8
-        Me.ChkShowtimer.Text = "Showtimer Movie Channels"
-        Me.ChkShowtimer.UseVisualStyleBackColor = True
+        Me.chkShowtimer.AutoSize = True
+        Me.chkShowtimer.Location = New System.Drawing.Point(33, 283)
+        Me.chkShowtimer.Name = "chkShowtimer"
+        Me.chkShowtimer.Size = New System.Drawing.Size(154, 17)
+        Me.chkShowtimer.TabIndex = 8
+        Me.chkShowtimer.Text = "Showtimer Movie Channels"
+        Me.chkShowtimer.UseVisualStyleBackColor = True
         '
-        'ChkLocal
+        'chkLocal
         '
-        Me.ChkLocal.AutoSize = True
-        Me.ChkLocal.Location = New System.Drawing.Point(33, 312)
-        Me.ChkLocal.Name = "ChkLocal"
-        Me.ChkLocal.Size = New System.Drawing.Size(93, 17)
-        Me.ChkLocal.TabIndex = 9
-        Me.ChkLocal.Text = "Local Stations"
-        Me.ChkLocal.UseVisualStyleBackColor = True
+        Me.chkLocal.AutoSize = True
+        Me.chkLocal.Location = New System.Drawing.Point(33, 312)
+        Me.chkLocal.Name = "chkLocal"
+        Me.chkLocal.Size = New System.Drawing.Size(93, 17)
+        Me.chkLocal.TabIndex = 9
+        Me.chkLocal.Text = "Local Stations"
+        Me.chkLocal.UseVisualStyleBackColor = True
         '
         'btnCalc
         '
@@ -289,10 +289,10 @@ Partial Class Form1
         Me.Controls.Add(Me.lblTotal)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnCalc)
-        Me.Controls.Add(Me.ChkLocal)
-        Me.Controls.Add(Me.ChkShowtimer)
+        Me.Controls.Add(Me.chkLocal)
+        Me.Controls.Add(Me.chkShowtimer)
         Me.Controls.Add(Me.chkHBI)
-        Me.Controls.Add(Me.ChkCinnematic)
+        Me.Controls.Add(Me.chkCinnematic)
         Me.Controls.Add(Me.lblLocalPrice)
         Me.Controls.Add(Me.lblShowtimerPrice)
         Me.Controls.Add(Me.lblHBIPrice)
@@ -305,10 +305,10 @@ Partial Class Form1
         Me.Controls.Add(Me.lblBasic)
         Me.Controls.Add(Me.lblCharge)
         Me.Controls.Add(Me.lblPackages)
-        Me.Controls.Add(Me.RadDiamond)
-        Me.Controls.Add(Me.RadGold)
-        Me.Controls.Add(Me.RadSilver)
-        Me.Controls.Add(Me.RadBasic)
+        Me.Controls.Add(Me.radDiamond)
+        Me.Controls.Add(Me.radGold)
+        Me.Controls.Add(Me.radSilver)
+        Me.Controls.Add(Me.radBasic)
         Me.Name = "Form1"
         Me.Text = "frmMain"
         Me.ResumeLayout(False)
@@ -316,10 +316,10 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents RadBasic As RadioButton
-    Friend WithEvents RadSilver As RadioButton
-    Friend WithEvents RadGold As RadioButton
-    Friend WithEvents RadDiamond As RadioButton
+    Friend WithEvents radBasic As RadioButton
+    Friend WithEvents radSilver As RadioButton
+    Friend WithEvents radGold As RadioButton
+    Friend WithEvents radDiamond As RadioButton
     Friend WithEvents lblPackages As Label
     Friend WithEvents lblCharge As Label
     Friend WithEvents lblBasic As Label
@@ -332,10 +332,10 @@ Partial Class Form1
     Friend WithEvents lblHBIPrice As Label
     Friend WithEvents lblShowtimerPrice As Label
     Friend WithEvents lblLocalPrice As Label
-    Friend WithEvents ChkCinnematic As CheckBox
+    Friend WithEvents chkCinnematic As CheckBox
     Friend WithEvents chkHBI As CheckBox
-    Friend WithEvents ChkShowtimer As CheckBox
-    Friend WithEvents ChkLocal As CheckBox
+    Friend WithEvents chkShowtimer As CheckBox
+    Friend WithEvents chkLocal As CheckBox
     Friend WithEvents btnCalc As Button
     Friend WithEvents btnExit As Button
     Friend WithEvents lblTotal As Label
