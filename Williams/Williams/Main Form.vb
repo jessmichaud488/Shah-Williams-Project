@@ -1,48 +1,48 @@
 ﻿Public Class Form1
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
-        Dim packageAmount As Integer
+        Dim intPackageAmount As Integer
 
-        If RadBasic.Checked = True Then
-            packageAmount = 24.99
+        If radBasic.Checked = True Then
+            intPackageAmount = 24.99
         End If
 
-        If RadSilver.Checked = True Then
-            packageAmount = 42.99
+        If radSilver.Checked = True Then
+            intPackageAmount = 42.99
         End If
 
-        If RadGold.Checked = True Then
-            packageAmount = 84.99
+        If radGold.Checked = True Then
+            intPackageAmount = 84.99
         End If
 
-        If RadDiamond.Checked = True Then
-            packageAmount = 99.99
+        If radDiamond.Checked = True Then
+            intPackageAmount = 99.99
         End If
 
 
-        If ChkCinnematic.Checked = True Then
-            packageAmount = packageAmount + 9.5
+        If chkCinnematic.Checked = True Then
+           intPackageAmount = intPackageAmount + 9.5
         End If
 
         If chkHBI.Checked = True Then
-            packageAmount = packageAmount + 9.5
+            intPackageAmount = intPackageAmount + 9.5
         End If
 
-        If ChkShowtimer.Checked = True Then
-            packageAmount = packageAmount + 10.5
+        If chkShowtimer.Checked = True Then
+            intPackageAmount = intPackageAmount + 10.5
         End If
 
-        If ChkLocal.Checked = True Then
-            packageAmount = packageAmount + 6.0
+        If chkLocal.Checked = True Then
+            intPackageAmount = intPackageAmount + 6.0
         End If
 
-        lblTotalBox.Text = packageAmount.ToString("C0")
+        lblTotalBox.Text = intPackageAmount.ToString("C0")
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
     End Sub
 
-    Private Sub ChkCinnematic_CheckedChanged(sender As Object, e As EventArgs) Handles ChkCinnematic.CheckedChanged
+    Private Sub chkCinnematic_CheckedChanged(sender As Object, e As EventArgs) Handles chkCinnematic.CheckedChanged
         lblTotalBox.Text = String.Empty
     End Sub
 
@@ -50,27 +50,27 @@
         lblTotalBox.Text = String.Empty
     End Sub
 
-    Private Sub ChkShowtimer_CheckedChanged(sender As Object, e As EventArgs) Handles ChkShowtimer.CheckedChanged
+    Private Sub chkShowtimer_CheckedChanged(sender As Object, e As EventArgs) Handles chkShowtimer.CheckedChanged
         lblTotalBox.Text = String.Empty
     End Sub
 
-    Private Sub ChkLocal_CheckedChanged(sender As Object, e As EventArgs) Handles ChkLocal.CheckedChanged
+    Private Sub chkLocal_CheckedChanged(sender As Object, e As EventArgs) Handles chkLocal.CheckedChanged
         lblTotalBox.Text = String.Empty
     End Sub
 
-    Private Sub RadBasic_CheckedChanged(sender As Object, e As EventArgs) Handles RadBasic.CheckedChanged
+    Private Sub radBasic_CheckedChanged(sender As Object, e As EventArgs) Handles radBasic.CheckedChanged
         lblTotalBox.Text = String.Empty
     End Sub
 
-    Private Sub RadSilver_CheckedChanged(sender As Object, e As EventArgs) Handles RadSilver.CheckedChanged
+    Private Sub radSilver_CheckedChanged(sender As Object, e As EventArgs) Handles radSilver.CheckedChanged
         lblTotalBox.Text = String.Empty
     End Sub
 
-    Private Sub RadGold_CheckedChanged(sender As Object, e As EventArgs) Handles RadGold.CheckedChanged
+    Private Sub radGold_CheckedChanged(sender As Object, e As EventArgs) Handles radGold.CheckedChanged
         lblTotalBox.Text = String.Empty
     End Sub
 
-    Private Sub RadDiamond_CheckedChanged(sender As Object, e As EventArgs) Handles RadDiamond.CheckedChanged
+    Private Sub radDiamond_CheckedChanged(sender As Object, e As EventArgs) Handles radDiamond.CheckedChanged
         lblTotalBox.Text = String.Empty
     End Sub
 End Class
